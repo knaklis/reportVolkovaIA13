@@ -1,11 +1,11 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
 
-.menu{
+.menu {
     position: relative;
     background-color: rgb(44, 80, 146);
     border-radius: 8px;
@@ -15,7 +15,7 @@
     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1);
 }
 
-.menu-item{
+.menu-item {
     padding: 20px 30px;
     text-decoration: none;
     text-transform: uppercase;
@@ -26,29 +26,21 @@
     text-align: center;
 }
 
-body{
+body {
     background-color: rgb(231, 127, 142);
 }
 
-header{
+header {
     border-radius: 30px;
     background-color: aquamarine;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
+    flex: 1; 
+    padding: 20px;
 }
 
-.right{
-    border-radius: 30px;
-    background-color: aquamarine;
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    
-}
-
-.buttom-item{
+.buttom-item {
     background-color: rgb(44, 80, 146);
     padding: 20px 30px;
     text-decoration: none;
@@ -57,32 +49,50 @@ header{
     display: block;
     text-align: left;
     border-radius: 30px;
-    margin-top: 10px; /* відступ зверху */
-    margin-bottom: 10px; /* відступ знизу */
-    margin-right:10px; /* видалення правої рамки (кольору) */
-    margin-left: 10px;
-    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px; 
+    margin-left: 10px;   
 }
 
-.left{
+.left {
+    flex: 2; /* Левый блок займет больше пространства */
+    padding: 20px;
     border-radius: 30px;
     background-color: aquamarine;
-    margin-right: 1300px;
+    margin-right: 10px;
     margin-left: 10px;
     margin-top: 10px;
-    padding-top: 10px; /* добавляем отступ сверху */
-    padding-bottom: 10px; /* добавляем отступ снизу */    
+    padding-top: 10px; 
+    padding-bottom: 10px;
     height: 500px;
 }
 
-.top{
+.right {
+    flex: 3; /* Правый блок займет больше пространства */
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: aquamarine;
+    border-radius: 30px;
+    margin-right: 10px;
+    height: 500px;
+    margin-top: 10px;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+}
+
+.top {
     text-align: center;
 }
 
-.lobo{
+.lobo {
     float: left;
-    margin-right: 10px; /* відступ справа */
-    margin-bottom: 10px; /* відступ знизу */
+    margin-right: 10px; 
+    margin-bottom: 10px;
     margin-left: 10px ;
     margin-top: 10px;
+}
+
+.container {
+    display: flex;
 }
