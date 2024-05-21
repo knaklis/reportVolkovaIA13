@@ -242,6 +242,34 @@ header {
     justify-content: space-around;
 }
 
+.left8 {
+    flex: 2; 
+    padding: 20px;
+    border-radius: 30px;
+    background-color: aquamarine;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    height: 370px;
+}
+
+.right8 {
+    flex: 3; 
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: aquamarine;
+    border-radius: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-around;
+}
+
 
 
 
